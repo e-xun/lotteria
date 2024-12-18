@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lotteria</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/index.css" />
+
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/splitting.min.js"></script>
+    </head>
+    <body>
+        <!-- 헤더 -->
+        <header>
+            <h1>
+                <a href="index.html"><img src="img/Lotteria_logo.png" /></a>
+            </h1>
+            <ul>
+                <li>
+                    <a href="brand.html">브랜드</a>
+                    <div></div>
+                </li>
+                <li>
+                    <a href="menu.html">메뉴</a>
+                    <div></div>
+                </li>
+                <li>
+                    <a href="">매장</a>
+                    <div></div>
+                </li>
+                <li>
+                    <a href="">뉴스</a>
+                    <div></div>
+                </li>
+                <li>
+                    <a href="">창업</a>
+                    <div></div>
+                </li>
+            </ul>
+
+            <!-- 히든메뉴 -->
+            <div class="menu_hidden">
+                <div class="icon">
+                    <p>
+                        <i class="fa-solid fa-bars"></i>
+                    </p>
+                </div>
+                <div class="nav">
+                    <p>
+                        <a href="brand.html">브랜드</a>
+                    </p>
+                    <p><a href="menu.html">메뉴</a></p>
+                    <p><a href="">매장</a></p>
+                    <p><a href="">뉴스</a></p>
+                    <p><a href="">창업</a></p>
+                </div>
+            </div>
+        </header>
+
+        <!-- 비주얼 -->
+        <div id="visual">
+            <img src="img/main_visual.png" />
+            <div class="visualwrap">
+                <ul>
+                    <li>
+                        <h2>
+                            하루 4시간, 리아가 쏜다!<br />
+                            <span class="title">잇츠</span>
+                            <span class="title2">리아타임</span>
+                        </h2>
+                    </li>
+                    <li><img src="img/main_bg.png" /></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 컨테이너 -->
+        <div id="container">
+            <section class="con1">
+                <ul class="con1wrap">
+                    <li>
+                        <img src="img/main_con1.jpg" />
+                    </li>
+                    <li>
+                        <h2>브랜드소개</h2>
+                        <h4>
+                            대한민국에서는 1979년 일본 롯데리아와 합작하여
+                            <br />대한민국 법인 '주식회사 롯데리아'로 사업을
+                            시작하였다.
+                        </h4>
+                        <p>
+                            한국 법인 롯데GRS는 대한민국, 베트남, 중국, 미얀마,
+                            캄보디아, 카자흐스탄, 몽골 등 <br />지역 롯데리아의
+                            소유권을 갖고 있다. 대한민국의 첫 롯데리아는 1979년
+                            12월 서울 중구 소공동 롯데백화점에서 개업하였다.<br />그러나
+                            이 점포는 2003년경 폐점하였으며 지금은 1980년 4월
+                            개점한 2호점이 한국에서 가장 오래된 롯데리아 점포로
+                            존재한다.
+                        </p>
+                        <div class="more">
+                            <a href="brand.html">자세히보기</a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="con2">
+                <h2>Best Menu</h2>
+                <ul>
+                    <li>
+                        <img src="img/con2ger1.png" />
+                        <h4>통새우크런KIM버거</h4>
+                        <p>shrimp crunched KIM burger</p>
+                    </li>
+                    <li>
+                        <img src="img/con2ger2.png" />
+                        <h4>불고기포텐버거</h4>
+                        <p>Bulk pottenberger</p>
+                    </li>
+                    <li>
+                        <img src="img/con2ger3.png" />
+                        <h4>리아 새우 베이컨</h4>
+                        <p>Lia, shrimp, bacon</p>
+                    </li>
+                    <li>
+                        <img src="img/con2ger4.png" />
+                        <h4>한우불고기버거</h4>
+                        <p>Hanwoo's beef burger</p>
+                    </li>
+                    <li>
+                        <img src="img/con2ger5.png" />
+                        <h4>더블 클래식치즈버거(버터번)</h4>
+                        <p>Double Classic Cheese Burger (Butter Bun)</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="con3">
+                <div class="rollleft">
+                    <div class="rolltxt">
+                        <strong>THE MOST DELICIOUS CHOICE!</strong>
+                        <span>THE MOST DELICIOUS CHOICE!</span>
+                    </div>
+                    <div class="rolltxt">
+                        <strong>THE MOST DELICIOUS CHOICE!</strong>
+                        <span>THE MOST DELICIOUS CHOICE!</span>
+                    </div>
+                    <div class="rolltxt">
+                        <strong>THE MOST DELICIOUS CHOICE!</strong>
+                        <span>THE MOST DELICIOUS CHOICE!</span>
+                    </div>
+                    <div class="rolltxt">
+                        <strong>THE MOST DELICIOUS CHOICE!</strong>
+                        <span>THE MOST DELICIOUS CHOICE!</span>
+                    </div>
+                </div>
+                <div class="rollright">
+                    <div class="rolltxt">
+                        <strong>THE MOST DELICIOUS CHOICE!</strong>
+                        <span>THE MOST DELICIOUS CHOICE!</span>
+                    </div>
+                    <div class="rolltxt">
+                        <strong>THE MOST DELICIOUS CHOICE!</strong>
+                        <span>THE MOST DELICIOUS CHOICE!</span>
+                    </div>
+                    <div class="rolltxt">
+                        <strong>THE MOST DELICIOUS CHOICE!</strong>
+                        <span>THE MOST DELICIOUS CHOICE!</span>
+                    </div>
+                    <div class="rolltxt">
+                        <strong>THE MOST DELICIOUS CHOICE!</strong>
+                        <span>THE MOST DELICIOUS CHOICE!</span>
+                    </div>
+                </div>
+            </section>
+            <section class="con4">
+                <ul>
+                    <li class="con4txt">
+                        <h2><span>맛있는 즐거움</span>이<br />찾아온다.</h2>
+                        <h4>롯데리아 홈서비스</h4>
+                        <h3>1600<span>-9999</span></h3>
+                        <p>
+                            집에서도 매장에서도 어디서나!<br />스마트하게
+                            주문하자!
+                        </p>
+                        <div class="home">
+                            <a href="menu.html">홈서비스 주문하기</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/concar.png" />
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- 푸터 -->
+        <footer>
+            <div class="footerwrap">
+                <div class="footertxt">
+                    <div class="top">
+                        <h4>
+                            개인정보처리방침
+                            <span>영상정보처리기기 운영/관리 방침</span>
+                        </h4>
+                    </div>
+                    <div class="info">
+                        <ul>
+                            <li>롯데리아(주)</li>
+                            <li>대표이사:차우철</li>
+                            <li>사업자번호 : 106-81-23498</li>
+                            <li>
+                                서울시 송파구 백제고분로 217 LOTTE GRS 79 SQUARE
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>이메일: abcd@naver.com</li>
+                            <li>마케팅 협업 제안: abcd@naver.com</li>
+                            <li>가맹문의 및 고객지원 : 1234-1234</li>
+                        </ul>
+                    </div>
+                    <div class="bottom">
+                        COPYRIGHT © 2017 LOTTE GRS CO.,LTD ALL RIGHT RESERVED
+                    </div>
+                </div>
+                <div class="sns">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            gsap.registerPlugin(ScrollTrigger);
+        </script>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>

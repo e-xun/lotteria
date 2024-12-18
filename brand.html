@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Brand</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/brand.css" />
+
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/splitting.min.js"></script>
+    </head>
+    <body>
+        <!-- 헤더 -->
+        <header>
+            <h1>
+                <a href="index.html"><img src="img/Lotteria_logo.png" /></a>
+            </h1>
+            <ul>
+                <li>
+                    <a href="brand.html">브랜드</a>
+                    <div></div>
+                </li>
+                <li>
+                    <a href="menu.html">메뉴</a>
+                    <div></div>
+                </li>
+                <li>
+                    <a href="">매장</a>
+                    <div></div>
+                </li>
+                <li>
+                    <a href="">뉴스</a>
+                    <div></div>
+                </li>
+                <li>
+                    <a href="">창업</a>
+                    <div></div>
+                </li>
+            </ul>
+
+            <!-- 히든메뉴 -->
+            <div class="menu_hidden">
+                <div class="icon">
+                    <p>
+                        <i class="fa-solid fa-bars"></i>
+                    </p>
+                </div>
+                <div class="nav">
+                    <p>
+                        <a href="brand.html">브랜드</a>
+                    </p>
+                    <p><a href="menu.html">메뉴</a></p>
+                    <p><a href="">매장</a></p>
+                    <p><a href="">뉴스</a></p>
+                    <p><a href="">창업</a></p>
+                </div>
+            </div>
+        </header>
+
+        <!-- 비주얼 -->
+        <div id="visual">
+            <img src="img/brand_visual.jpg" />
+            <div class="visual_txt">
+                <h2>Brand</h2>
+            </div>
+        </div>
+
+        <!-- 컨테이너 -->
+        <div id="container">
+            <section class="con1">
+                <ul>
+                    <li>
+                        <h3>
+                            <span class="line"></span>
+                            브랜드소개
+                        </h3>
+                        <h4>TASTE THE FUN</h4>
+                        <p>
+                            롯데리아는 한국인의 입맛을 사로잡은 차별화된 한국식
+                            버거를 중심으로 다양하고<br />특색있는 메뉴와 편리한
+                            서비스를 제공해 고객의 일상에 맛있는 즐거움을
+                            선사하는<br />대한민국 대표 햄버거 프랜차이즈
+                            입니다.
+                        </p>
+                        <p>
+                            꾸준한 경영 혁신과 과감한 투자, 다채로운 신메뉴
+                            개발로 국내 외식 산업의 발전을<br />선도해온
+                            롯데리아는 현재 7개국에서 1,600여개의 매장을
+                            운영하며 세계인에게<br />사랑받는 글로벌 외식
+                            브랜드로서 입지를 다져가고 있습니다.
+                        </p>
+                    </li>
+                    <li>
+                        <img src="img/brand_con.jpg" />
+                    </li>
+                </ul>
+            </section>
+            <section class="con2">
+                <div class="con2txt">
+                    <h3>
+                        <span class="line"></span>
+                        Core Value
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                        <img src="img/brandcon1.png" />
+                        <p>한국 토종 브랜드로서<br />한국인의 입맛에 꼭 맞는</p>
+                    </li>
+                    <li>
+                        <img src="img/brandcon2.png" />
+                        <p>
+                            고객만족을 위해 끝없이<br />도전하고 새로운 가치를
+                            찾는
+                        </p>
+                    </li>
+                    <li>
+                        <img src="img/brandcon3.png" />
+                        <p>
+                            친근한, 가깝고 편한,<br />언제나 편하게 즐길 수 있는
+                        </p>
+                    </li>
+                    <li>
+                        <img src="img/brandcon4.png" />
+                        <p>
+                            각양각색의 취향에 맞춰<br />다양한 맛과 경험을
+                            제공하는
+                        </p>
+                    </li>
+                    <li>
+                        <img src="img/brandcon5.png" />
+                        <p>항상 즐겁고 유쾌한,<br />재치있는</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="con3">
+                <div class="roll">
+                    <div>
+                        <span>HELLO</span>
+                        <span>LOTTERIA</span>
+                        <span>HELLO</span>
+                        <span>LOTTERIA</span>
+                        <span>HELLO</span>
+                        <span>LOTTERIA</span>
+                        <span>HELLO</span>
+                        <span>LOTTERIA</span>
+                        <span>HELLO</span>
+                        <span>LOTTERIA</span>
+                    </div>
+                    <div>
+                        <span>HELLO</span>
+                        <span>LOTTERIA</span>
+                        <span>HELLO</span>
+                        <span>LOTTERIA</span>
+                        <span>HELLO</span>
+                        <span>LOTTERIA</span>
+                        <span>HELLO</span>
+                        <span>LOTTERIA</span>
+                        <span>HELLO</span>
+                        <span>LOTTERIA</span>
+                    </div>
+                </div>
+            </section>
+            <section class="con4">
+                <h2>Brand Identity</h2>
+                <div class="con4box1">
+                    <h3>Logo</h3>
+                    <p>
+                        롯데리아의 로고는 도전적이면서도 합리적인 브랜드
+                        가치를<br />녹아내기 위헤 대담하면서도 직관적인 형태로
+                        표현했습니다.
+                    </p>
+                    <div class="identity">
+                        <img src="img/brand_logotype.jpg" />
+                        <div class="typetxt">
+                            <h4>Logo type</h4>
+                            <p>
+                                롯데리아(LOTTERIA)는 롯데그룹의 ‘롯데(LOTTE)’와
+                                셀프서비스 식당을 의미하는 ‘카페테리아<br />(Cafeteria)’를
+                                결합한 것으로 1979년 국내 최초의 현대식 퀵
+                                서비스 레스토랑으로 출범하며,<br />
+                                새로운 식문화 창조에 공헌하겠다는 뜻을 담고
+                                있습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="identity">
+                        <img src="img/brand_logotype2.jpg" />
+                        <div class="typetxt">
+                            <h4>Symbol&Emblem</h4>
+                            <p>
+                                심볼마크는 롯데리아(LOTTERIA)의 ‘L’과 ‘O’의
+                                형태를 상징합니다.<br />
+                                ‘L’의 뻗어 나가는 직선은 롯데리아가 지키고자
+                                하는 5가지 원칙 ‘Q, C, S, T, H’에 대한 곧은
+                                의지를<br />표현합니다. ‘O‘는 한입 베어 문
+                                햄버거를 위에서 내려다본 모습이자 즐겁게 웃고
+                                있는 사람의 옆얼굴을<br />
+                                형상화 하여 맛있는 음식을 통해 느끼는 즐거움을
+                                표현합니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="con4box1">
+                    <h3>Color</h3>
+                    <p>
+                        롯데리아의 메인 컬러는 생동감 넘치는 레드 컬러를
+                        활용하여<br />신선하고 열정적이며, 도전적인 브랜드
+                        이미지를 표현합니다.
+                    </p>
+                    <ul>
+                        <li>
+                            <h4>RED</h4>
+                            <p>#E70017</p>
+                        </li>
+                        <li>
+                            <h4>WHITE</h4>
+                            <p>#FFFFFF</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <!-- 푸터 -->
+        <footer>
+            <div class="footerwrap">
+                <div class="footertxt">
+                    <div class="top">
+                        <h4>
+                            개인정보처리방침
+                            <span>영상정보처리기기 운영/관리 방침</span>
+                        </h4>
+                    </div>
+                    <div class="info">
+                        <ul>
+                            <li>롯데리아(주)</li>
+                            <li>대표이사:차우철</li>
+                            <li>사업자번호 : 106-81-23498</li>
+                            <li>
+                                서울시 송파구 백제고분로 217 LOTTE GRS 79 SQUARE
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>이메일: abcd@naver.com</li>
+                            <li>마케팅 협업 제안: abcd@naver.com</li>
+                            <li>가맹문의 및 고객지원 : 1234-1234</li>
+                        </ul>
+                    </div>
+                    <div class="bottom">
+                        COPYRIGHT © 2017 LOTTE GRS CO.,LTD ALL RIGHT RESERVED
+                    </div>
+                </div>
+                <div class="sns">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            gsap.registerPlugin(ScrollTrigger);
+        </script>
+
+        <script src="js/brand.js"></script>
+    </body>
+</html>
